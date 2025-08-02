@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
       <div className="navbar-container">
         <h1 className="logo">
-          <Link to="hero" smooth={true} duration={500} onClick={closeMenu}>
+          <Link to="home" smooth={true} duration={500} onClick={closeMenu}>
             BOGS
           </Link>
         </h1>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
 
         <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
-          <li><Link to="hero" smooth={true} duration={500} onClick={closeMenu}>Home</Link></li>
+          <li><Link to="home" smooth={true} duration={500} onClick={closeMenu}>Home</Link></li>
           <li><Link to="services" smooth={true} duration={500} onClick={closeMenu}>Services</Link></li>
           <li><Link to="about" smooth={true} duration={500} onClick={closeMenu}>About</Link></li>
           <li><Link to="portfolio" smooth={true} duration={500} onClick={closeMenu}>Portfolio</Link></li>
