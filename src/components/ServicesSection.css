@@ -1,0 +1,83 @@
+.services-section {
+  padding: 4rem 2rem;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.section-title {
+  font-family: 'Georgia';
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #1e1e1e;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* One item = 50% of container, alternate layout */
+.service-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: calc(50% - 1rem);
+}
+
+.service-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.service-image-wrapper {
+  flex: 1;
+  height: 100%;
+}
+
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3 / 4; /* Portrait shape */
+}
+
+.service-info {
+  flex: 1;
+  padding: 2rem;
+  text-align: left;
+}
+
+.service-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+
+.service-feedback {
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+/* Responsive: Stack on mobile */
+@media screen and (max-width: 768px) {
+  .service-item {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .service-item.reverse {
+    flex-direction: column;
+  }
+
+  .service-info {
+    text-align: center;
+    padding: 1.5rem;
+  }
+}

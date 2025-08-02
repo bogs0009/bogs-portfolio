@@ -1,0 +1,54 @@
+a.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.extended-portfolio {
+  padding: 2rem;
+  padding-top: 8rem;
+  background: #fefefe;
+}
+
+.extended-portfolio h1{
+  font-family: 'Georgia';
+  color: #1e1e1e;
+}
+
+.extended-portfolio a {
+  margin-top: 15px;
+  padding: 12px 36px;
+  border: 2px solid #1e1e1e;
+  background: transparent;
+  color: #1e1e1e;
+  border-radius: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.extended-portfolio a:hover {
+  background-color: #d4a72c;
+  color: #1e1e1e;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.category-section {
+  margin-top: 2rem;
+}
+
+.category-section h2 {
+  margin-bottom: 1rem;
+}
+
+.category-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}

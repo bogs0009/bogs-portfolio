@@ -1,0 +1,111 @@
+.contacts-section {
+  padding: 4rem 2rem;
+  background-color: #1e1e1e;
+}
+
+.contacts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-form,
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  background: #ccc;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form h2,
+.contact-info h2 {
+  font-family: 'Georgia';
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #1e1e1e;
+}
+
+.contact-form form label {
+  display: block;
+  font-weight: 600;
+  margin: 1rem 0 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form button {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #d4af37;
+  color: #1e1e1e;
+}
+
+/* Contact Info */
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.contact-info li {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.contact-info i {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: #d4af37;
+}
+
+.bottom-img {
+  margin-top: 2rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .contacts-container {
+    flex-direction: column;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}

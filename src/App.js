@@ -1,25 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
+/* import React from 'react';
+import Navbar from './components/Navbar';
+import { Element } from 'react-scroll';
+import HeroSlider from './components/HeroSlider';
+import About from './components/About';
+import ServicesSection from './components/ServicesSection';
+import PortfolioSection from './components/PortfolioSection';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Element name="hero"><HeroSlider /></Element>
+      <Element name="services"><ServicesSection /></Element>
+      <Element name="portfolio"><PortfolioSection /></Element>
+      <Footer />
+
+    </>
+  );
+}
+
+export default App;*/
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import HeroSlider from './components/HeroSlider';
+import ServicesSection from './components/ServicesSection';
+import PortfolioSection from './components/PortfolioSection';
+import About from './components/About';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
+import ExtendedPortfolio from './pages/ExtendedPortfolio';
+
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div id="home">
+              <HeroSlider />
+              <ServicesSection />
+              <PortfolioSection />
+              <Contacts />
+              <Footer />
+            </div>
+          }
+        />
+        <Route path="/portfolio" element={<ExtendedPortfolio />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
