@@ -49,7 +49,7 @@ const Contacts = () => {
               <li><i className="fas fa-phone-alt"></i> +63 975 691 4967</li>
               <li><i className="fas fa-envelope"></i> johnryansilvestre09@gmail.com</li>
               <li><i className="fas fa-map-marker-alt"></i> City of Dasmariñas, Cavite</li>
-              <li><i className="fab fa-linkedin"></i> linkedin.com/in/john-ryan-silvestre-0887ab1ba</li>
+              <li><i className="fab fa-linkedin"></i> john-ryan-silvestre-0887ab1ba</li>
             </ul>
             <img
               src="/images/mycar.jpg"
