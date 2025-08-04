@@ -14,18 +14,20 @@ const slides = [
     mobile: '/images/hero1-mobile.jpg',
     caption: 'Open for Collaboration',
   },
-  /*{
+  {
     id: 2,
     desktop: '/images/Hero2.jpg',
     mobile: '/images/hero2-mobile.jpg',
-    caption: 'Your Beauty, Our Passion',
+    caption: 'Your Brand, Our Passion',
   },
+  /*
   {
     id: 3,
     desktop: '/images/Hero3.jpg',
     mobile: '/images/hero3-mobile.jpg',
     caption: 'Elevate Your Look',
-  },*/
+  },
+  */
 ];
 
 const HeroSlider = () => {

@@ -32,6 +32,8 @@ import About from './components/About';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import ExtendedPortfolio from './pages/ExtendedPortfolio';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
@@ -44,6 +46,7 @@ function App() {
             <div id="home">
               <HeroSlider />
               <ServicesSection />
+              <About />
               <PortfolioSection />
               <Contacts />
               <Footer />

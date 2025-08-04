@@ -11,14 +11,14 @@ const Contacts = () => {
           {/* LEFT FORM */}
           <div className="contact-form">
             <h2>Let's Work Together</h2>
-            <form action="https://formspree.io/f/xeozkdkw" method="POST">
+            <form action="https://formspree.io/f/mkgzvrob" method="POST">
               <input type="hidden" name="_captcha" value="false" />
               
               <label>Name</label>
               <input type="text" name="Name" placeholder="Required" required />
 
               <label>Email</label>
-              <input type="email" name="Email" placeholder="Optional" />
+              <input type="email" name="Email" placeholder="Required" required />
 
               <div className="form-row">
                 <div className="form-group">

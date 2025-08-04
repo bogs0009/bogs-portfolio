@@ -6,7 +6,7 @@ a.nav-link {
 .extended-portfolio {
   padding: 2rem;
   padding-top: 8rem;
-  background: #fefefe;
+  background: #ccc;
 }
 
 .extended-portfolio h1{
@@ -16,7 +16,7 @@ a.nav-link {
 
 .extended-portfolio a {
   margin-top: 15px;
-  padding: 12px 36px;
+  padding: 12px 24px;
   border: 2px solid #1e1e1e;
   background: transparent;
   color: #1e1e1e;
