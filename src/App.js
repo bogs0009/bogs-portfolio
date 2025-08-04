@@ -46,8 +46,8 @@ function App() {
             <div id="home">
               <HeroSlider />
               <ServicesSection />
-              <About />
               <PortfolioSection />
+              <About />
               <Contacts />
               <Footer />
             </div>
