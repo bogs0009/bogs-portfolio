@@ -7,14 +7,26 @@ import './ServicesSection.css';
 const services = [
   {
     title: 'Graphic Design',
-    image: '/images/graphics.jpg',
+    image: '/images/graphics1.jpg',
     feedback: '“Let us turn your ideas into a beautiful digital canvas!”',
     rating: 5,
   },
   {
-    title: 'Front End Web Dev',
+    title: 'Web Design',
     image: '/images/webdev.jpg',
-    feedback: '“Want to make your website awesome?!”',
+    feedback: '“Want to make your website awesome?”',
+    rating: 5,
+  },
+  {
+    title: 'Branding',
+    image: '/images/graphics2.jpg',
+    feedback: '“Wand to make your brand stand-out?”',
+    rating: 5,
+  },
+  {
+    title: 'Front End Web Dev',
+    image: '/images/webdev2.jpg',
+    feedback: '“Let us build your website come to life!”',
     rating: 5,
   },
 ];
