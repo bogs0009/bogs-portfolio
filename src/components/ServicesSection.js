@@ -20,7 +20,7 @@ const services = [
   {
     title: 'Branding',
     image: '/images/graphics2.jpg',
-    feedback: '“Wand to make your brand stand-out?”',
+    feedback: '“Want to make your brand stand-out?”',
     rating: 5,
   },
   {
