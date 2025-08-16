@@ -19,20 +19,12 @@ const Contacts = () => {
 
               <label>Email</label>
               <input type="email" name="Email" placeholder="Required" required />
+              
+              <label>Mobile No.</label>
+              <input type="tel" name="Mobile" placeholder="Required" required />
 
-              <div className="form-row">
-                <div className="form-group">
-                  <label>Mobile No.</label>
-                  <input type="tel" name="Mobile" placeholder="Required" required />
-                </div>
-              </div>
-
-              <div className="form-row">
-                <div className="form-group">
-                  <label>Country | Location</label>
-                  <input type="text" name="EventType" placeholder="Required" required />
-                </div>
-              </div>
+              <label>Country | Location</label>
+              <input type="text" name="EventType" placeholder="Required" required />
 
               <label>Message</label>
               <textarea name="Message" rows="4" placeholder="Optional"></textarea>
