@@ -39,6 +39,58 @@ a.nav-link {
   text-decoration: none;
 }
 
+/* folder list */
+.folders { 
+  display: grid; 
+  gap: 0.85rem;
+}
+
+/* header button for each category (folder look) */
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #1e1e1e;
+  border: 2px solid #1e1e1e;
+  padding: 14px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  color:#d4af37;
+  transition: background 0.22s ease, box-shadow 0.22s ease;
+}
+
+.category-header:hover { 
+  box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+}
+
+.folder-left { 
+  display: flex; 
+  align-items: center; 
+  gap: 12px;
+}
+.folder-icon { 
+  font-size: 20px; 
+}
+.category-title { 
+  font-size: 1rem; 
+}
+
+/* content area (collapsible) */
+.category-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.38s ease;
+  background: transparent;
+}
+.category-content.open {
+  /* large enough for most galleries; adjust if you have many images */
+  max-height: 100%;
+}
+
+---
+
 .category-section {
   margin-top: 2rem;
 }
@@ -48,6 +100,7 @@ a.nav-link {
 }
 
 .category-images {
+  padding: 1rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
