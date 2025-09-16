@@ -12,7 +12,7 @@ const slides = [
     id: 1,
     desktop: '/images/Hero1.jpg',
     mobile: '/images/hero1-mobile.jpg',
-    caption: 'Open for Collaboration',
+    caption: 'Logofolio',
   },
   {
     id: 2,
@@ -20,14 +20,18 @@ const slides = [
     mobile: '/images/hero2-mobile.jpg',
     caption: 'Your Brand, Our Passion',
   },
-  /*
   {
     id: 3,
     desktop: '/images/Hero3.jpg',
     mobile: '/images/hero3-mobile.jpg',
-    caption: 'Elevate Your Look',
+    caption: 'Elevate Your Brand',
   },
-  */
+  {
+    id: 3,
+    desktop: '/images/Hero4.jpg',
+    mobile: '/images/hero4-mobile.jpg',
+    caption: 'Logo Design',
+  },
 ];
 
 const HeroSlider = () => {
