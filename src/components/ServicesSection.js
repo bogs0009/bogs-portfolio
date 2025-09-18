@@ -13,7 +13,7 @@ const services = [
   },
   {
     title: 'Web Design',
-    image: '/images/webdev.jpg',
+    image: '/images/webdev1.jpg',
     feedback: '“Want to make your website awesome?”',
     rating: 5,
   },
