@@ -4,7 +4,35 @@ import { Link } from 'react-router-dom';
 
 
 const categories = [
- {
+  {
+    title: 'QOTD',
+    images: ['/images/QOTD/qotd1.jpg', '/images/QOTD/qotd2.jpg',
+              '/images/QOTD/qotd3.jpg', '/images/QOTD/qotd4.jpg',
+              '/images/QOTD/qotd5.jpg', '/images/QOTD/qotd6.jpg',
+              '/images/QOTD/qotd7.jpg', '/images/QOTD/qotd8.jpg',
+              '/images/QOTD/qotd9.jpg', '/images/QOTD/qotd10.jpg',
+              '/images/QOTD/qotd11.jpg', '/images/QOTD/qotd12.jpg',
+              '/images/QOTD/qotd13.jpg', '/images/QOTD/qotd14.jpg',
+              '/images/QOTD/qotd15.jpg', '/images/QOTD/qotd16.jpg',
+              '/images/QOTD/qotd17.jpg', '/images/QOTD/qotd18.jpg',
+              '/images/QOTD/qotd19.jpg', '/images/QOTD/qotd20.jpg',
+              '/images/QOTD/qotd21.jpg', '/images/QOTD/qotd22.jpg',
+              '/images/QOTD/qotd23.jpg', '/images/QOTD/qotd24.jpg',
+              '/images/QOTD/qotd25.jpg', '/images/QOTD/qotd26.jpg',
+              '/images/QOTD/qotd27.jpg', '/images/QOTD/qotd28.jpg',
+              '/images/QOTD/qotd29.jpg', '/images/QOTD/qotd30.jpg',
+              '/images/QOTD/qotd31.jpg', '/images/QOTD/qotd32.jpg',
+              '/images/QOTD/qotd33.jpg', '/images/QOTD/qotd34.jpg',
+              '/images/QOTD/qotd35.jpg', '/images/QOTD/qotd36.jpg',
+              '/images/QOTD/qotd37.jpg', '/images/QOTD/qotd38.jpg',
+              '/images/QOTD/qotd39.jpg', '/images/QOTD/qotd40.jpg',
+              '/images/QOTD/qotd41.jpg', '/images/QOTD/qotd42.jpg',
+              '/images/QOTD/qotd43.jpg', '/images/QOTD/qotd44.jpg',
+              '/images/QOTD/qotd45.jpg', '/images/QOTD/qotd46.jpg',
+              '/images/QOTD/qotd47.jpg', '/images/QOTD/qotd48.jpg',
+              '/images/QOTD/qotd49.jpg',],
+  },
+  {
    title: 'Graphics',
    images: ['/images/graphics/gph1.jpg', '/images/graphics/gph2.jpg',
              '/images/graphics/gph3.jpg', '/images/graphics/gph4.jpg',
