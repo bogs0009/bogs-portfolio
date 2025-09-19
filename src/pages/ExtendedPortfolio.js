@@ -34,10 +34,8 @@ const categories = [
   },
   {
    title: 'Graphics',
-   images: ['/images/graphics/gph1.jpg', '/images/graphics/gph2.jpg',
-             '/images/graphics/gph3.jpg', '/images/graphics/gph4.jpg',
-             '/images/graphics/gph5.jpg', '/images/graphics/gph6.jpg',
-             '/images/graphics/gph7.jpg',],
+   images: ['/images/graphics/gph1.png', '/images/graphics/gph2.jpg',
+             ],
  },
  {
    title: 'Web',
