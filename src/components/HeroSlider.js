@@ -16,7 +16,7 @@ const slides = [
   },
   {
     id: 2,
-    desktop: '/images/Hero2.jpg',
+    desktop: '/images/Hero4.jpg',
     mobile: '/images/hero2-mobile.jpg',
     caption: 'Your Brand, Our Passion',
   },
@@ -28,7 +28,7 @@ const slides = [
   },
   {
     id: 3,
-    desktop: '/images/Hero4.jpg',
+    desktop: '/images/Hero2.jpg',
     mobile: '/images/hero4-mobile.jpg',
     caption: 'Logo Design',
   },
