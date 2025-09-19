@@ -44,6 +44,11 @@ const categories = [
            '/images/web/web5.jpg', ],
  },
  {
+   title: 'Branding',
+   images: ['/images/branding/brand1.jpg', '/images/branding/brand2.jpg',
+             ],
+ },
+ {
   title: 'Logo',
    images: ['/images/logo/logo1.jpg', '/images/logo/logo2.jpg',
             '/images/logo/logo3.jpg',],
