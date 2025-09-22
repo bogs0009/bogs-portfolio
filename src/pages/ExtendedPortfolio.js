@@ -33,7 +33,7 @@ const categories = [
               '/images/QOTD/qotd49.jpg',],
   },
   {
-   title: 'Graphics',
+   title: 'Banners',
    images: ['/images/graphics/gph1.png', '/images/graphics/gph2.jpg',
              ],
  },
