@@ -33,26 +33,31 @@ const categories = [
               '/images/QOTD/qotd49.jpg',],
   },
   {
+   title: 'Ads',
+   images: ['/images/ads/ad1jpg', '/images/ads/ad2.jpg',
+            '/images/ads/ad3jpg', ],
+  },
+  {
    title: 'Banners',
    images: ['/images/graphics/gph1.png', '/images/graphics/gph2.jpg',
              ],
- },
- {
-   title: 'Web',
-   images: ['/images/web/web1.jpg', '/images/web/web2.jpg',
-           '/images/web/web3.jpg', '/images/web/web4.jpg',
-           '/images/web/web5.jpg', ],
- },
- {
-   title: 'Branding',
-   images: ['/images/branding/brand1.jpg', '/images/branding/brand2.jpg',
-             ],
- },
- {
-  title: 'Logo',
-   images: ['/images/logo/logo1.jpg', '/images/logo/logo2.jpg',
-            '/images/logo/logo3.jpg',],
- },
+  },
+  {
+    title: 'Web',
+    images: ['/images/web/web1.jpg', '/images/web/web2.jpg',
+            '/images/web/web3.jpg', '/images/web/web4.jpg',
+            '/images/web/web5.jpg', ],
+  },
+  {
+    title: 'Branding',
+    images: ['/images/branding/brand1.jpg', '/images/branding/brand2.jpg',
+              ],
+  },
+  {
+    title: 'Logo',
+    images: ['/images/logo/logo1.jpg', '/images/logo/logo2.jpg',
+              '/images/logo/logo3.jpg',],
+  },
 ];
 
 
