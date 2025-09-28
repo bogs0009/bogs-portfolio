@@ -24,7 +24,7 @@ const slides = [
     id: 5,
     desktop: '/images/Hero5.jpg',
     mobile: '/images/hero5-mobile.jpg',
-    caption: 'Ads-solutely Incredible',
+    caption: 'Ads-solutely Amazing',
   },
   {
     id: 3,
