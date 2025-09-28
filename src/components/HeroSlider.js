@@ -21,6 +21,12 @@ const slides = [
     caption: 'Your Brand, Our Passion',
   },
   {
+    id: 5,
+    desktop: '/images/Hero5.jpg',
+    mobile: '/images/hero5-mobile.jpg',
+    caption: 'Ads-solutely Incredible',
+  },
+  {
     id: 3,
     desktop: '/images/Hero3.jpg',
     mobile: '/images/hero3-mobile.jpg',
