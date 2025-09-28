@@ -34,8 +34,8 @@ const categories = [
   },
   {
    title: 'Ads',
-   images: ['/images/ads/ad1jpg', '/images/ads/ad2.jpg',
-            '/images/ads/ad3jpg', ],
+   images: ['/images/ads/ad1.jpg', '/images/ads/ad2.jpg',
+            '/images/ads/ad3.jpg', ],
   },
   {
    title: 'Banners',
