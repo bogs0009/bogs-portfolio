@@ -9,6 +9,12 @@ import './HeroSlider.css';
 
 const slides = [
   {
+    id: 3,
+    desktop: '/images/Hero2.jpg',
+    mobile: '/images/hero2-mobile.jpg',
+    caption: 'Logo Design',
+  },
+  {
     id: 1,
     desktop: '/images/Hero1.jpg',
     mobile: '/images/hero1-mobile.jpg',
@@ -31,12 +37,6 @@ const slides = [
     desktop: '/images/Hero3.jpg',
     mobile: '/images/hero3-mobile.jpg',
     caption: 'Elevate Your Brand',
-  },
-  {
-    id: 3,
-    desktop: '/images/Hero2.jpg',
-    mobile: '/images/hero2-mobile.jpg',
-    caption: 'Logo Design',
   },
 ];
 
