@@ -12,7 +12,7 @@ const slides = [
     id: 3,
     desktop: '/images/Hero2.jpg',
     mobile: '/images/hero2-mobile.jpg',
-    caption: 'Marketing Design',
+    caption: 'Social Media',
   },
   {
     id: 1,
