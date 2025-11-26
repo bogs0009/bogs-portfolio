@@ -52,7 +52,8 @@ const categories = [
   {
     title: 'Branding',
     images: ['/images/branding/brand1.jpg', '/images/branding/brand2.jpg',
-              ],
+             '/images/branding/brand3.jpg', '/images/branding/brand4.jpg',
+             '/images/branding/brand5.jpg', ],
   },
   {
     title: 'Logo',
