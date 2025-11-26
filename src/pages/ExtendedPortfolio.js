@@ -41,7 +41,7 @@ const categories = [
   {
    title: 'Banners',
    images: ['/images/graphics/gph1.png', '/images/graphics/gph2.jpg',
-             ],
+            '/images/graphics/gph3.jpg',],
   },
   {
     title: 'Web',
