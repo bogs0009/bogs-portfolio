@@ -40,8 +40,9 @@ const categories = [
   },
   {
    title: 'Banners',
-   images: ['/images/graphics/gph1.png', '/images/graphics/gph2.jpg',
-            '/images/graphics/gph3.jpg',],
+   images: ['/images/graphics/gph1.png', '/images/graphics/gph4.jpg',
+            '/images/graphics/gph2.jpg', '/images/graphics/gph5.jpg',
+            '/images/graphics/gph3.1.jpg', '/images/graphics/gph3.jpg'],
   },
   {
     title: 'Web',
