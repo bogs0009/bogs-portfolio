@@ -48,7 +48,7 @@ const categories = [
     title: 'Web',
     images: ['/images/web/web1.jpg', '/images/web/web2.jpg',
             '/images/web/web3.jpg', '/images/web/web4.jpg',
-            '/images/web/web5.jpg', ],
+            '/images/web/web5.jpg', '/images/web/web01.jpg',],
   },
   {
     title: 'Branding',
