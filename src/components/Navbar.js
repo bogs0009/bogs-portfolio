@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div onClick={handleLogoClick} className="logo-link" style={{ cursor: 'pointer' }}>
-          <img src="/images/Logo-bogs.png" alt="bogs" className="logo-img" />
+          <img src="/images/new-bogs-logo-wht.svg" alt="bogs" className="logo-img" />
         </div>
 
         <div className={`nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
