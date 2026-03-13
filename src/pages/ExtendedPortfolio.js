@@ -12,7 +12,7 @@ export const categories = [
         video: '/videos/BOGS-Graphix-Studio.mp4', 
         title: 'Inspirational Quote Design',
         description: 'A vibrant and modern design for Quote of the Day featuring custom typography and relatively great backgrounds. This piece combines elegant typography with bold color choices to create an engaging visual experience.',
-        client: 'Personal Project',
+        client: 'Personal Project Update Deployment',
         gallery: [
           '/images/QOTD/qotd46.jpg', '/images/QOTD/qotd47.jpg',
         ]
