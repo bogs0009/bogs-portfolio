@@ -2,222 +2,116 @@ import React, { useState } from 'react';
 import './ExtendedPortfolio.css';
 import { Link } from 'react-router-dom';
 
-export const categories = [
+
+const categories = [
   {
     title: 'QOTD',
-    images: [
-      { 
-        id: 'qotd1',
-        src: '/images/thumbnails/QOTD-Thumbnail01.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Inspirational Quote Design',
-        description: 'A vibrant and modern design for Quote of the Day featuring custom typography and relatively great backgrounds. This piece combines elegant typography with bold color choices to create an engaging visual experience.',
-        client: 'Personal Project',
-        gallery: [
-          '/images/QOTD/qotd46.jpg', '/images/QOTD/qotd47.jpg',
-        ]
-      },
-    ],
+    images: ['/images/QOTD/qotd1.jpg', '/images/QOTD/qotd2.jpg',
+              '/images/QOTD/qotd3.jpg', '/images/QOTD/qotd4.jpg',
+              '/images/QOTD/qotd5.jpg', '/images/QOTD/qotd6.jpg',
+              '/images/QOTD/qotd7.jpg', '/images/QOTD/qotd8.jpg',
+              '/images/QOTD/qotd9.jpg', '/images/QOTD/qotd10.jpg',
+              '/images/QOTD/qotd11.jpg', '/images/QOTD/qotd12.jpg',
+              '/images/QOTD/qotd13.jpg', '/images/QOTD/qotd14.jpg',
+              '/images/QOTD/qotd15.jpg', '/images/QOTD/qotd16.jpg',
+              '/images/QOTD/qotd17.jpg', '/images/QOTD/qotd18.jpg',
+              '/images/QOTD/qotd19.jpg', '/images/QOTD/qotd20.jpg',
+              '/images/QOTD/qotd21.jpg', '/images/QOTD/qotd22.jpg',
+              '/images/QOTD/qotd23.jpg', '/images/QOTD/qotd24.jpg',
+              '/images/QOTD/qotd25.jpg', '/images/QOTD/qotd26.jpg',
+              '/images/QOTD/qotd27.jpg', '/images/QOTD/qotd28.jpg',
+              '/images/QOTD/qotd29.jpg', '/images/QOTD/qotd30.jpg',
+              '/images/QOTD/qotd31.jpg', '/images/QOTD/qotd32.jpg',
+              '/images/QOTD/qotd33.jpg', '/images/QOTD/qotd34.jpg',
+              '/images/QOTD/qotd35.jpg', '/images/QOTD/qotd36.jpg',
+              '/images/QOTD/qotd37.jpg', '/images/QOTD/qotd38.jpg',
+              '/images/QOTD/qotd39.jpg', '/images/QOTD/qotd40.jpg',
+              '/images/QOTD/qotd41.jpg', '/images/QOTD/qotd42.jpg',
+              '/images/QOTD/qotd43.jpg', '/images/QOTD/qotd44.jpg',
+              '/images/QOTD/qotd45.jpg', '/images/QOTD/qotd46.jpg',
+              '/images/QOTD/qotd47.jpg', '/images/QOTD/qotd48.jpg',
+              '/images/QOTD/qotd49.jpg',],
   },
   {
-    title: 'Ads',
-    images: [
-      { 
-        id: 'ad1',
-        src: '/images/ads/ad1.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Premium Product Campaign',
-        description: 'High-end advertisement design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
-        client: 'Luxury Brands Co.',
-        gallery: [
-          '/images/ads/ad1.jpg', '/images/ads/ad2.jpg', '/images/ads/ad3.jpg',
-        ]
-      },
-      { 
-        id: 'ad2',
-        src: '/images/ads/ad4.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Social Media Ad Series',
-        description: 'Vibrant social media advertising design optimized for multiple platforms. Designed to increase engagement and drive conversions with eye-catching visuals.',
-        client: 'Digital Marketing Experts',
-        gallery: [
-          '/images/ads/ad4.jpg', '/images/ads/ad5.jpg', '/images/ads/ad6.jpg',  '/images/graphics/gph3.jpg',
-        ]
-      },
-    ],
+   title: 'Ads',
+   images: ['/images/ads/ad1.jpg', '/images/ads/ad2.jpg',
+            '/images/ads/ad3.jpg', '/images/ads/ad4.jpg',
+            '/images/ads/ad5.jpg', '/images/ads/ad6.jpg',],
   },
   {
-    title: 'Banners',
-    images: [
-      { 
-        id: 'gph1',
-        src: '/images/graphics/gph2.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Digital and Prints Banner',
-        description: 'Professional digital and prints banner designs featuring dynamic style and modern aesthetic. This banner serves as a strong marketing visual to the brand.',
-        client: 'Internal Project',
-        gallery: [
-          '/images/graphics/City.png', '/images/graphics/gph2.jpg', '/images/graphics/gph4.jpg', '/images/graphics/gph5.jpg',
-        ]
-      },
-      { 
-        id: 'gph2',
-        src: '/images/graphics/gph3.1.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Website Header Banner',
-        description: 'Professional banner design featuring simple minimalist layout and modern aesthetic. This banner serves as a strong visual introduction to the brand.',
-        client: 'Internal Project',
-        gallery: [
-          '/images/graphics/gph3.1.jpg',
-        ]
-      },
-    ],
+   title: 'Banners',
+   images: ['/images/graphics/gph1.png', '/images/graphics/gph4.jpg',
+            '/images/graphics/gph2.jpg', '/images/graphics/gph5.jpg',
+            '/images/graphics/gph3.1.jpg', '/images/graphics/gph3.jpg'],
   },
   {
     title: 'Web',
-    images: [
-      { 
-        id: 'web1',
-        src: '/images/thumbnails/COD.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4',
-        title: 'City Website',
-        description: 'Professional website design featuring responsive layout and modern aesthetic. This serves as a strong user interface and user experience to the brand.',
-        client: 'Website Proposal Design',
-        gallery: [
-          '/images/web/City of Dasma.jpg', '/images/web/web2.jpg', '/images/web/web3.jpg', '/images/web/web4.jpg','/images/web/web5.jpg',
-        ]
-      },
-      { 
-        id: 'web2',
-        src: '/images/thumbnails/BOGS-Website.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Website Header Banner',
-        description: 'Professional website design featuring responsive layout and modern aesthetic. This serves as a strong user interface and user experience to the brand.',
-        client: 'Web Design Studio',
-        gallery: [
-          '/images/web/BOGS.jpg',
-        ]
-      },
-    ],
+    images: ['/images/web/web1.jpg', '/images/web/web2.jpg',
+            '/images/web/web3.jpg', '/images/web/web4.jpg',
+            '/images/web/web5.jpg', '/images/web/web01.jpg',],
   },
   {
     title: 'Branding',
-    images: [
-      { 
-        id: 'brand1',
-        src: '/images/branding/brand1.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Experience Premium Brand',
-        description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
-        client: 'Luxury Brands Co.',
-        gallery: [
-          '/images/branding/brand1.jpg', '/images/branding/brand2.jpg',
-        ]
-      },
-      { 
-        id: 'brand2',
-        src: '/images/branding/brand3.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Experience Premium Brand',
-        description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
-        client: 'Luxury Brands Co.',
-        gallery: [
-          '/images/branding/brand3.jpg', '/images/branding/brand4.jpg', '/images/branding/brand5.jpg',
-        ]
-      },
-    ],
+    images: ['/images/branding/brand3.jpg', '/images/branding/brand4.jpg',
+             '/images/branding/brand5.jpg', '/images/branding/brand1.jpg',
+             '/images/branding/brand2.jpg',],
   },
   {
     title: 'Logo',
-    images: [
-      { 
-        id: 'Logo1',
-        src: '/images/logo/Alphagrand.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Company Logo Design',
-        description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
-        client: 'Aplhagrand Group',
-        gallery: [
-          '/images/logo/Alphagrand.jpg',
-        ]
-      },
-      { 
-        id: 'Logo2',
-        src: '/images/logo/Alessandy Jamesmith.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Influencer Logo Design',
-        description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
-        client: 'Social Media Personality',
-        gallery: [
-          '/images/logo/Alessandy Jamesmith.jpg', 
-        ]
-      },
-      { 
-        id: 'Logo3',
-        src: '/images/logo/Katha.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
-        title: 'Inspirational Quotes Page',
-        description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
-        client: 'Personal Project',
-        gallery: [
-          '/images/logo/Katha.jpg',
-        ]
-      },
-    ],
+    images: ['/images/logo/logo1.jpg', '/images/logo/logo2.jpg',
+              '/images/logo/logo3.jpg',],
   },
 ];
 
+
 const ExtendedPortfolio = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  // which category is open (null = none). This makes an accordion (one open at a time).
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleCategory = (i) => {
+    setOpenIndex((prev) => (prev === i ? null : i));
+  };
 
   return (
     <div className="extended-portfolio">
-      <div className="video-hero">
-        <video autoPlay loop muted playsInline className="hero-video" key="hero-video">
-          <source src="/videos/BOGS-Graphix-Studio.mp4" type="video/mp4" />
-        </video>
-        <div className="video-overlay">
-          <h1>My Works</h1>
-          <Link to="/" className="back-link">Back to Home</Link>
-        </div>
-      </div>
+      <h1>My Works</h1>
+      <Link to="/" className="back-link">← Back to Home</Link>
 
-      <div className="portfolio-section">
-        <div className="tab-nav">
-          {categories.map((cat, i) => (
+      <div className="folders">
+        {categories.map((cat, i) => (
+          <div key={i} className="category-section">
             <button
-              key={i}
-              className={`tab-button ${activeTab === i ? 'active' : ''}`}
-              onClick={() => setActiveTab(i)}
-              aria-selected={activeTab === i}
-              role="tab"
+              className={`category-header ${openIndex === i ? 'open' : ''}`}
+              onClick={() => toggleCategory(i)}
+              aria-expanded={openIndex === i}
+              aria-controls={`cat-${i}`}
             >
-              {cat.title}
+              <span className="folder-left">
+                <span className="category-title">{cat.title}</span>
+              </span>
+              <span className="chevron" aria-hidden="true">
+                {openIndex === i ? '▲' : '▼'}
+              </span>
             </button>
-          ))}
-        </div>
 
-        <div className="tab-content">
-          <div className="category-images">
-            {categories[activeTab].images.map((item, idx) => (
-              <Link 
-                key={idx} 
-                to={`/product/${categories[activeTab].title}/${item.id}`}
-                className="portfolio-link"
+            <div
+              id={`cat-${i}`}
+              className={`category-content ${openIndex === i ? 'open' : ''}`}
               >
-                <img
-                  src={item.src}
-                  alt={item.title}
+              <div className="category-images">
+                {cat.images.map((src, idx) => (
+                  <img
+                  key={idx}
+                  src={src}
+                  alt={`${cat.title} ${idx + 1}`}
                   className="portfolio-img"
                   loading="lazy"
-                  onError={(e) => {
-                    e.target.src = `https://picsum.photos/seed/${item.id}/800/800`;
-                  }}
-                />
-              </Link>
-            ))}
+                  />
+                ))}
+              </div>
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
   );

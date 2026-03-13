@@ -32,8 +32,6 @@ import About from './components/About';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import ExtendedPortfolio from './pages/ExtendedPortfolio';
-import ProductPage from './pages/ProductPage';
-import InquirePage from './pages/InquirePage';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -56,8 +54,6 @@ function App() {
           }
         />
         <Route path="/portfolio" element={<ExtendedPortfolio />} />
-        <Route path="/product/:category/:id" element={<ProductPage />} />
-        <Route path="/inquire" element={<InquirePage />} />
       </Routes>
     </Router>
   );
