@@ -89,13 +89,13 @@ export const categories = [
       },
       { 
         id: 'web2',
-        src: '/images/thumbnails/BOGS-Website.jpg', 
+        src: '/images/thumbnails/Bogs-Website.jpg', 
         video: '/videos/BOGS-Graphix-Studio.mp4', 
         title: 'Website Header Banner',
         description: 'Professional website design featuring responsive layout and modern aesthetic. This serves as a strong user interface and user experience to the brand.',
         client: 'Web Design Studio',
         gallery: [
-          '/images/web/BOGS.jpg',
+          '/images/web/web01.jpg',
         ]
       },
     ],
