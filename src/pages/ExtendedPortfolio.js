@@ -78,18 +78,18 @@ export const categories = [
     images: [
       { 
         id: 'web1',
-        src: '/images/thumbnails/COD.jpg', 
+        src: '/images/thumbnails/COD-Web-Thumb.png', 
         video: '/videos/BOGS-Graphix-Studio.mp4',
         title: 'City Website',
         description: 'Professional website design featuring responsive layout and modern aesthetic. This serves as a strong user interface and user experience to the brand.',
         client: 'Website Proposal Design',
         gallery: [
-          '/images/web/City of Dasma.jpg', '/images/web/web2.jpg', '/images/web/web3.jpg', '/images/web/web4.jpg','/images/web/web5.jpg',
+          '/images/web/web1.jpg', '/images/web/web2.jpg', '/images/web/web3.jpg', '/images/web/web4.jpg','/images/web/web5.jpg',
         ]
       },
       { 
         id: 'web2',
-        src: '/images/thumbnails/Bogs-Website.jpg', 
+        src: '/images/thumbnails/BOGS-Web-Thumb.png', 
         video: '/videos/BOGS-Graphix-Studio.mp4', 
         title: 'Website Header Banner',
         description: 'Professional website design featuring responsive layout and modern aesthetic. This serves as a strong user interface and user experience to the brand.',
