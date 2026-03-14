@@ -8,7 +8,7 @@ export const categories = [
     images: [
       { 
         id: 'qotd1',
-        src: '/images/thumbnails/QOTD-Thumbnail01.jpg', 
+        src: '/images/thumbnails/QOTD-Thumbnail.png', 
         video: '/videos/BOGS-Graphix-Studio.mp4', 
         title: 'Inspirational Quote Design',
         description: 'A vibrant and modern design for Quote of the Day featuring custom typography and relatively great backgrounds. This piece combines elegant typography with bold color choices to create an engaging visual experience.',
