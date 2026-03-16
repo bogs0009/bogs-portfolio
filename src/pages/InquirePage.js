@@ -142,7 +142,7 @@ const InquirePage = () => {
                     <option value="design">Graphic Design</option>
                     <option value="web">Web Design</option>
                     <option value="branding">Branding & Identity</option>
-                    <option value="video">Video & Motion</option>
+                    {/* <option value="video">Video & Motion</option> */}
                     <option value="other">Other</option>
                   </select>
                 </div>
