@@ -36,7 +36,7 @@ export const categories = [
       { 
         id: 'ad2',
         src: '/images/ads/ad4.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
+        video: '/videos/BOGS-Logo.mp4', 
         title: 'Social Media Ad Series',
         description: 'Vibrant social media advertising design optimized for multiple platforms. Designed to increase engagement and drive conversions with eye-catching visuals.',
         client: 'Digital Marketing Experts',
@@ -63,7 +63,7 @@ export const categories = [
       { 
         id: 'gph2',
         src: '/images/graphics/gph3.1.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
+        video: '/videos/BOGS-Logo.mp4', 
         title: 'Website Header Banner',
         description: 'Professional banner design featuring simple minimalist layout and modern aesthetic. This banner serves as a strong visual introduction to the brand.',
         client: 'Internal Project',
@@ -78,7 +78,7 @@ export const categories = [
     images: [
       { 
         id: 'web1',
-        src: '/images/thumbnails/COD-Web-Thumb.png', 
+        src: '/images/thumbnails/COD-Web-Thumb01.png', 
         video: '/videos/BOGS-Graphix-Studio.mp4',
         title: 'City Website',
         description: 'Professional website design featuring responsive layout and modern aesthetic. This serves as a strong user interface and user experience to the brand.',
@@ -90,7 +90,7 @@ export const categories = [
       { 
         id: 'web2',
         src: '/images/thumbnails/BOGS-Web-Thumb.png', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
+        video: '/videos/BOGS-Logo.mp4', 
         title: 'Website Header Banner',
         description: 'Professional website design featuring responsive layout and modern aesthetic. This serves as a strong user interface and user experience to the brand.',
         client: 'Web Design Studio',
@@ -117,7 +117,7 @@ export const categories = [
       { 
         id: 'brand2',
         src: '/images/branding/brand3.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
+        video: '/videos/BOGS-Logo.mp4', 
         title: 'Experience Premium Brand',
         description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
         client: 'Luxury Brands Co.',
@@ -144,7 +144,7 @@ export const categories = [
       { 
         id: 'Logo2',
         src: '/images/logo/logo2.jpg', 
-        video: '/videos/BOGS-Graphix-Studio.mp4', 
+        video: '/videos/BOGS-Logo.mp4', 
         title: 'Influencer Logo Design',
         description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
         client: 'Social Media Personality',
