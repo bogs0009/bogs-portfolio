@@ -79,7 +79,7 @@
 /* Contact Info */
 .contact-info ul {
   list-style: none;
-  padding: 0;
+  padding: 0.8rem;
   font-size: 1rem;
 }
 
