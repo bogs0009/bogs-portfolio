@@ -10,14 +10,14 @@ import './HeroSlider.css';
 const slides = [
   {
     id: 0,
-    desktop: '/images/Hero001.jpg',
-    mobile: '/images/hero001-mobile.jpg',
+    desktop: '/images/Hero01.png',
+    mobile: '/images/hero01-mobile.png',
     caption: 'Stunning Style',
   },
   {
     id: 3,
-    desktop: '/images/Hero2.jpg',
-    mobile: '/images/hero2-mobile.jpg',
+    desktop: '/images/Hero2.png',
+    mobile: '/images/hero2-mobile.png',
     caption: 'Social Media',
   },
   {
