@@ -56,7 +56,7 @@ export const categories = [
         description: 'Vibrant social media advertising design optimized for multiple platforms. Designed to increase engagement and drive conversions with eye-catching visuals.',
         client: 'Digital Marketing Experts',
         gallery: [
-          '/images/ads/ad4.jpg', '/images/ads/ad5.jpg', '/images/ads/ad6.jpg',  '/images/graphics/gph3.jpg',
+          '/images/ads/ad4.png', '/images/ads/ad5.jpg', '/images/ads/ad6.png',  '/images/graphics/gph3.jpg',
         ]
       },
     ],
