@@ -43,11 +43,15 @@ const Contacts = () => {
               <li><i className="fas fa-map-marker-alt"></i> City of Dasmariñas, Cavite</li>
               <li><i className="fab fa-linkedin"></i> john-ryan-silvestre-0887ab1ba</li>
             </ul>
-            <img
-              src="/images/mycar.jpg"
-              alt="Makeup and brushes"
+            {/* VIDEO with thumbnail */}
+            <video
               className="bottom-img"
-            />
+              poster="/images/thumbnails/vid-resume.png"
+              controls
+            >
+              <source src="/videos/Video-Resume-UHD.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
 
         </div>
