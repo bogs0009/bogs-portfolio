@@ -44,14 +44,19 @@ const Contacts = () => {
               <li><i className="fab fa-linkedin"></i> john-ryan-silvestre-0887ab1ba</li>
             </ul>
             {/* VIDEO with thumbnail */}
-            <video
+            {/*<video
               className="bottom-img"
               poster="/images/thumbnails/vid-resume.png"
               controls
             >
               <source src="/videos/Video-Resume-UHD.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video>*/}
+            <img
+              src="/images/thumbnails/vid-resume.png"
+              alt="Makeup and brushes"
+              className="bottom-img"
+            />
           </div>
 
         </div>
