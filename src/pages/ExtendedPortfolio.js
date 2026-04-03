@@ -109,6 +109,23 @@ export const categories = [
     title: 'Branding',
     images: [
       { 
+        id: 'brand3',
+        src: '/images/thumbnails/bogs-brand.png', 
+        video: '/videos/BOGS-Logo.mp4', 
+        title: 'Experience Premium Brand',
+        description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
+        client: 'My Graphics Studio',
+        gallery: [
+          '/images/branding-comp/1.png', '/images/branding-comp/2.png', '/images/branding-comp/3.png', '/images/branding-comp/3.1.png',
+          '/images/branding-comp/4.png', '/images/branding-comp/5.png', '/images/branding-comp/6.png',
+          '/images/branding-comp/7.png', '/images/branding-comp/8.png', '/images/branding-comp/9.png', '/images/branding-comp/9.1.png',
+          '/images/branding-comp/10.png', '/images/branding-comp/11.png', '/images/branding-comp/12.png',
+          '/images/branding-comp/13.png', '/images/branding-comp/14.png', '/images/branding-comp/15.png','/images/branding-comp/16.png',
+          '/images/branding-comp/17.png', '/images/branding-comp/18.png', '/images/branding-comp/19.png',
+          '/images/branding-comp/20.png', '/images/branding-comp/21.png', '/images/branding-comp/22.png',
+        ]
+      },
+      { 
         id: 'brand1',
         src: '/images/branding/brand1.jpg', 
         video: '/videos/BOGS-Graphix-Studio.mp4', 
@@ -135,6 +152,23 @@ export const categories = [
   {
     title: 'Logo',
     images: [
+      { 
+        id: 'Logo4',
+        src: '/images/thumbnails/bogs-logo-thumbnail.png', 
+        video: '/videos/BOGS-Logo.mp4', 
+        title: 'Experience Premium Brand',
+        description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
+        client: 'My Graphics Studio',
+        gallery: [
+          '/images/branding-comp/1.png', '/images/branding-comp/2.png', '/images/branding-comp/3.png', '/images/branding-comp/3.1.png',
+          '/images/branding-comp/4.png', '/images/branding-comp/5.png', '/images/branding-comp/6.png',
+          '/images/branding-comp/7.png', '/images/branding-comp/8.png', '/images/branding-comp/9.png', '/images/branding-comp/9.1.png',
+          '/images/branding-comp/10.png', '/images/branding-comp/11.png', '/images/branding-comp/12.png',
+          '/images/branding-comp/13.png', '/images/branding-comp/14.png', '/images/branding-comp/15.png','/images/branding-comp/16.png',
+          '/images/branding-comp/17.png', '/images/branding-comp/18.png', '/images/branding-comp/19.png',
+          '/images/branding-comp/20.png', '/images/branding-comp/21.png', '/images/branding-comp/22.png',
+        ]
+      },
       { 
         id: 'Logo1',
         src: '/images/logo/logo1.jpg', 
