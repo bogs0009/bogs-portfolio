@@ -199,11 +199,11 @@ export const categories = [
         description: 'Experience a premium design for luxury product line. Features sophisticated styling with emphasis on premium positioning and elegance.',
         client: 'Personal Project',
         gallery: [
-          '/images/branding-comp/Katha/Katha_1.pdf', '/images/branding-comp/Katha/Katha_2.pdf',  '/images/branding-comp/Katha/Katha_3.pdf',
-          '/images/branding-comp/Katha/Katha_4.pdf', '/images/branding-comp/Katha/Katha_5.pdf',  '/images/branding-comp/Katha/Katha_6.pdf',
-          '/images/branding-comp/Katha/Katha_7.pdf', '/images/branding-comp/Katha/Katha_8.pdf',  '/images/branding-comp/Katha/Katha_9.pdf',
-          '/images/branding-comp/Katha/Katha_10.pdf', '/images/branding-comp/Katha/Katha_11.pdf',  '/images/branding-comp/Katha/Katha_12.pdf',
-          '/images/branding-comp/Katha/Katha_13.pdf', '/images/branding-comp/Katha/Katha_14.pdf',  '/images/branding-comp/Katha/Katha_15.pdf',
+          '/images/branding-comp/Katha/Katha-1.jpeg', '/images/branding-comp/Katha/Katha-2.jpeg',  '/images/branding-comp/Katha/Katha-3.jpeg',
+          '/images/branding-comp/Katha/Katha-4.jpeg', '/images/branding-comp/Katha/Katha-5.jpeg',  '/images/branding-comp/Katha/Katha-6.jpeg',
+          '/images/branding-comp/Katha/Katha-7.jpeg', '/images/branding-comp/Katha/Katha-8.jpeg',  '/images/branding-comp/Katha/Katha-9.jpeg',
+          '/images/branding-comp/Katha/Katha-10.jpeg', '/images/branding-comp/Katha/Katha-11.jpeg',  '/images/branding-comp/Katha/Katha-12.jpeg',
+          '/images/branding-comp/Katha/Katha-13.jpeg', '/images/branding-comp/Katha/Katha-14.jpeg',  '/images/branding-comp/Katha/Katha-15.jpeg',
         ]
       },
     ],
